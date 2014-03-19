@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7C230CF18D96B5B006BF6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C230CE18D96B5B006BF6E7 /* Foundation.framework */; };
+		F7C230D118D96B5B006BF6E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C230D018D96B5B006BF6E7 /* CoreGraphics.framework */; };
+		F7C230D318D96B5B006BF6E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C230D218D96B5B006BF6E7 /* UIKit.framework */; };
+		F7C230D918D96B5B006BF6E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7C230D718D96B5B006BF6E7 /* InfoPlist.strings */; };
+		F7C230DB18D96B5B006BF6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C230DA18D96B5B006BF6E7 /* main.m */; };
+		F7C230DF18D96B5B006BF6E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C230DE18D96B5B006BF6E7 /* AppDelegate.m */; };
+		F7C230E118D96B5B006BF6E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C230E018D96B5B006BF6E7 /* Images.xcassets */; };
+		F7C230E818D96B5B006BF6E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C230E718D96B5B006BF6E7 /* XCTest.framework */; };
+		F7C230E918D96B5B006BF6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C230CE18D96B5B006BF6E7 /* Foundation.framework */; };
+		F7C230EA18D96B5B006BF6E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C230D218D96B5B006BF6E7 /* UIKit.framework */; };
+		F7C230F218D96B5B006BF6E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7C230F018D96B5B006BF6E7 /* InfoPlist.strings */; };
+		F7C230F418D96B5B006BF6E7 /* WPFPageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C230F318D96B5B006BF6E7 /* WPFPageViewDemoTests.m */; };
+		F7C2310418D96B94006BF6E7 /* WPFPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C230FF18D96B94006BF6E7 /* WPFPageView.m */; };
+		F7C2310518D96B94006BF6E7 /* WPFPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C2310118D96B94006BF6E7 /* WPFPageViewCell.m */; };
+		F7C2310618D96B94006BF6E7 /* WPFZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C2310318D96B94006BF6E7 /* WPFZoomImageView.m */; };
+		F7C2310918D96BAF006BF6E7 /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C2310818D96BAF006BF6E7 /* DemoController.m */; };
+		F7C2311018D96EBE006BF6E7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7C2310A18D96EBE006BF6E7 /* 1.jpg */; };
+		F7C2311118D96EBE006BF6E7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7C2310B18D96EBE006BF6E7 /* 2.jpg */; };
+		F7C2311218D96EBE006BF6E7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7C2310C18D96EBE006BF6E7 /* 3.jpg */; };
+		F7C2311318D96EBE006BF6E7 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7C2310D18D96EBE006BF6E7 /* 4.jpg */; };
+		F7C2311418D96EBE006BF6E7 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7C2310E18D96EBE006BF6E7 /* 5.jpg */; };
+		F7C2311518D96EBE006BF6E7 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7C2310F18D96EBE006BF6E7 /* 6.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7C230EB18D96B5B006BF6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7C230C318D96B5B006BF6E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C230CA18D96B5B006BF6E7;
+			remoteInfo = WPFPageViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7C230CB18D96B5B006BF6E7 /* WPFPageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPFPageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C230CE18D96B5B006BF6E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7C230D018D96B5B006BF6E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7C230D218D96B5B006BF6E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7C230D618D96B5B006BF6E7 /* WPFPageViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPFPageViewDemo-Info.plist"; sourceTree = "<group>"; };
+		F7C230D818D96B5B006BF6E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7C230DA18D96B5B006BF6E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7C230DC18D96B5B006BF6E7 /* WPFPageViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPFPageViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F7C230DD18D96B5B006BF6E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7C230DE18D96B5B006BF6E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7C230E018D96B5B006BF6E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7C230E618D96B5B006BF6E7 /* WPFPageViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPFPageViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C230E718D96B5B006BF6E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7C230EF18D96B5B006BF6E7 /* WPFPageViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPFPageViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F7C230F118D96B5B006BF6E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7C230F318D96B5B006BF6E7 /* WPFPageViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPFPageViewDemoTests.m; sourceTree = "<group>"; };
+		F7C230FE18D96B94006BF6E7 /* WPFPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFPageView.h; sourceTree = "<group>"; };
+		F7C230FF18D96B94006BF6E7 /* WPFPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFPageView.m; sourceTree = "<group>"; };
+		F7C2310018D96B94006BF6E7 /* WPFPageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFPageViewCell.h; sourceTree = "<group>"; };
+		F7C2310118D96B94006BF6E7 /* WPFPageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFPageViewCell.m; sourceTree = "<group>"; };
+		F7C2310218D96B94006BF6E7 /* WPFZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFZoomImageView.h; sourceTree = "<group>"; };
+		F7C2310318D96B94006BF6E7 /* WPFZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFZoomImageView.m; sourceTree = "<group>"; };
+		F7C2310718D96BAF006BF6E7 /* DemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
+		F7C2310818D96BAF006BF6E7 /* DemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoController.m; sourceTree = "<group>"; };
+		F7C2310A18D96EBE006BF6E7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F7C2310B18D96EBE006BF6E7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F7C2310C18D96EBE006BF6E7 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F7C2310D18D96EBE006BF6E7 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F7C2310E18D96EBE006BF6E7 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F7C2310F18D96EBE006BF6E7 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7C230C818D96B5B006BF6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C230D118D96B5B006BF6E7 /* CoreGraphics.framework in Frameworks */,
+				F7C230D318D96B5B006BF6E7 /* UIKit.framework in Frameworks */,
+				F7C230CF18D96B5B006BF6E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C230E318D96B5B006BF6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C230E818D96B5B006BF6E7 /* XCTest.framework in Frameworks */,
+				F7C230EA18D96B5B006BF6E7 /* UIKit.framework in Frameworks */,
+				F7C230E918D96B5B006BF6E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7C230C218D96B5B006BF6E7 = {
+			isa = PBXGroup;
+			children = (
+				F7C230FD18D96B94006BF6E7 /* WPFPageView */,
+				F7C230D418D96B5B006BF6E7 /* WPFPageViewDemo */,
+				F7C230ED18D96B5B006BF6E7 /* WPFPageViewDemoTests */,
+				F7C230CD18D96B5B006BF6E7 /* Frameworks */,
+				F7C230CC18D96B5B006BF6E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7C230CC18D96B5B006BF6E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C230CB18D96B5B006BF6E7 /* WPFPageViewDemo.app */,
+				F7C230E618D96B5B006BF6E7 /* WPFPageViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C230CD18D96B5B006BF6E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C230CE18D96B5B006BF6E7 /* Foundation.framework */,
+				F7C230D018D96B5B006BF6E7 /* CoreGraphics.framework */,
+				F7C230D218D96B5B006BF6E7 /* UIKit.framework */,
+				F7C230E718D96B5B006BF6E7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C230D418D96B5B006BF6E7 /* WPFPageViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7C230DD18D96B5B006BF6E7 /* AppDelegate.h */,
+				F7C230DE18D96B5B006BF6E7 /* AppDelegate.m */,
+				F7C230E018D96B5B006BF6E7 /* Images.xcassets */,
+				F7C230D518D96B5B006BF6E7 /* Supporting Files */,
+				F7C2310718D96BAF006BF6E7 /* DemoController.h */,
+				F7C2310818D96BAF006BF6E7 /* DemoController.m */,
+				F7C2310A18D96EBE006BF6E7 /* 1.jpg */,
+				F7C2310B18D96EBE006BF6E7 /* 2.jpg */,
+				F7C2310C18D96EBE006BF6E7 /* 3.jpg */,
+				F7C2310D18D96EBE006BF6E7 /* 4.jpg */,
+				F7C2310E18D96EBE006BF6E7 /* 5.jpg */,
+				F7C2310F18D96EBE006BF6E7 /* 6.jpg */,
+			);
+			path = WPFPageViewDemo;
+			sourceTree = "<group>";
+		};
+		F7C230D518D96B5B006BF6E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C230D618D96B5B006BF6E7 /* WPFPageViewDemo-Info.plist */,
+				F7C230D718D96B5B006BF6E7 /* InfoPlist.strings */,
+				F7C230DA18D96B5B006BF6E7 /* main.m */,
+				F7C230DC18D96B5B006BF6E7 /* WPFPageViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7C230ED18D96B5B006BF6E7 /* WPFPageViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7C230F318D96B5B006BF6E7 /* WPFPageViewDemoTests.m */,
+				F7C230EE18D96B5B006BF6E7 /* Supporting Files */,
+			);
+			path = WPFPageViewDemoTests;
+			sourceTree = "<group>";
+		};
+		F7C230EE18D96B5B006BF6E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C230EF18D96B5B006BF6E7 /* WPFPageViewDemoTests-Info.plist */,
+				F7C230F018D96B5B006BF6E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7C230FD18D96B94006BF6E7 /* WPFPageView */ = {
+			isa = PBXGroup;
+			children = (
+				F7C230FE18D96B94006BF6E7 /* WPFPageView.h */,
+				F7C230FF18D96B94006BF6E7 /* WPFPageView.m */,
+				F7C2310018D96B94006BF6E7 /* WPFPageViewCell.h */,
+				F7C2310118D96B94006BF6E7 /* WPFPageViewCell.m */,
+				F7C2310218D96B94006BF6E7 /* WPFZoomImageView.h */,
+				F7C2310318D96B94006BF6E7 /* WPFZoomImageView.m */,
+			);
+			name = WPFPageView;
+			path = ../WPFPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7C230CA18D96B5B006BF6E7 /* WPFPageViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C230F718D96B5B006BF6E7 /* Build configuration list for PBXNativeTarget "WPFPageViewDemo" */;
+			buildPhases = (
+				F7C230C718D96B5B006BF6E7 /* Sources */,
+				F7C230C818D96B5B006BF6E7 /* Frameworks */,
+				F7C230C918D96B5B006BF6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPFPageViewDemo;
+			productName = WPFPageViewDemo;
+			productReference = F7C230CB18D96B5B006BF6E7 /* WPFPageViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7C230E518D96B5B006BF6E7 /* WPFPageViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C230FA18D96B5B006BF6E7 /* Build configuration list for PBXNativeTarget "WPFPageViewDemoTests" */;
+			buildPhases = (
+				F7C230E218D96B5B006BF6E7 /* Sources */,
+				F7C230E318D96B5B006BF6E7 /* Frameworks */,
+				F7C230E418D96B5B006BF6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C230EC18D96B5B006BF6E7 /* PBXTargetDependency */,
+			);
+			name = WPFPageViewDemoTests;
+			productName = WPFPageViewDemoTests;
+			productReference = F7C230E618D96B5B006BF6E7 /* WPFPageViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7C230C318D96B5B006BF6E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = WingPan;
+				TargetAttributes = {
+					F7C230E518D96B5B006BF6E7 = {
+						TestTargetID = F7C230CA18D96B5B006BF6E7;
+					};
+				};
+			};
+			buildConfigurationList = F7C230C618D96B5B006BF6E7 /* Build configuration list for PBXProject "WPFPageViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7C230C218D96B5B006BF6E7;
+			productRefGroup = F7C230CC18D96B5B006BF6E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C230CA18D96B5B006BF6E7 /* WPFPageViewDemo */,
+				F7C230E518D96B5B006BF6E7 /* WPFPageViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7C230C918D96B5B006BF6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C2311318D96EBE006BF6E7 /* 4.jpg in Resources */,
+				F7C2311218D96EBE006BF6E7 /* 3.jpg in Resources */,
+				F7C2311518D96EBE006BF6E7 /* 6.jpg in Resources */,
+				F7C2311018D96EBE006BF6E7 /* 1.jpg in Resources */,
+				F7C230D918D96B5B006BF6E7 /* InfoPlist.strings in Resources */,
+				F7C2311418D96EBE006BF6E7 /* 5.jpg in Resources */,
+				F7C2311118D96EBE006BF6E7 /* 2.jpg in Resources */,
+				F7C230E118D96B5B006BF6E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C230E418D96B5B006BF6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C230F218D96B5B006BF6E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C230C718D96B5B006BF6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C2310918D96BAF006BF6E7 /* DemoController.m in Sources */,
+				F7C2310418D96B94006BF6E7 /* WPFPageView.m in Sources */,
+				F7C2310618D96B94006BF6E7 /* WPFZoomImageView.m in Sources */,
+				F7C2310518D96B94006BF6E7 /* WPFPageViewCell.m in Sources */,
+				F7C230DF18D96B5B006BF6E7 /* AppDelegate.m in Sources */,
+				F7C230DB18D96B5B006BF6E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C230E218D96B5B006BF6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C230F418D96B5B006BF6E7 /* WPFPageViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7C230EC18D96B5B006BF6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7C230CA18D96B5B006BF6E7 /* WPFPageViewDemo */;
+			targetProxy = F7C230EB18D96B5B006BF6E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7C230D718D96B5B006BF6E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C230D818D96B5B006BF6E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7C230F018D96B5B006BF6E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C230F118D96B5B006BF6E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7C230F518D96B5B006BF6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7C230F618D96B5B006BF6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7C230F818D96B5B006BF6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFPageViewDemo/WPFPageViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WPFPageViewDemo/WPFPageViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7C230F918D96B5B006BF6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFPageViewDemo/WPFPageViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WPFPageViewDemo/WPFPageViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7C230FB18D96B5B006BF6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPFPageViewDemo.app/WPFPageViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFPageViewDemo/WPFPageViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WPFPageViewDemoTests/WPFPageViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7C230FC18D96B5B006BF6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPFPageViewDemo.app/WPFPageViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPFPageViewDemo/WPFPageViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WPFPageViewDemoTests/WPFPageViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7C230C618D96B5B006BF6E7 /* Build configuration list for PBXProject "WPFPageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C230F518D96B5B006BF6E7 /* Debug */,
+				F7C230F618D96B5B006BF6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C230F718D96B5B006BF6E7 /* Build configuration list for PBXNativeTarget "WPFPageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C230F818D96B5B006BF6E7 /* Debug */,
+				F7C230F918D96B5B006BF6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7C230FA18D96B5B006BF6E7 /* Build configuration list for PBXNativeTarget "WPFPageViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C230FB18D96B5B006BF6E7 /* Debug */,
+				F7C230FC18D96B5B006BF6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7C230C318D96B5B006BF6E7 /* Project object */;
+}
