@@ -159,13 +159,9 @@ UICollectionViewDelegate
     
     _datasource = datasource;
     
-    if ([_datasource respondsToSelector:@selector(numberOfPagesInPageView:)]) {
-        _datasourceFlag.numberOfPage = YES;
-    }
-    
-    if ([_datasource respondsToSelector:@selector(pageView:preparePageCell:atIndex:)]) {
-        _datasourceFlag.pageCell = YES;
-    }
+    _datasourceFlag.numberOfPage = [_datasource respondsToSelector:@selector(numberOfPagesInPageView:)];
+
+    _datasourceFlag.pageCell = [_datasource respondsToSelector:@selector(pageView:preparePageCell:atIndex:)];
 }
 
 - (void)setDelegate:(id<WPFPageViewDelegate>)delegate {
@@ -174,9 +170,7 @@ UICollectionViewDelegate
     }
     
     _delegate = delegate;
-    if ([_delegate respondsToSelector:@selector(pageView:didSelectAtIndex:)]) {
-        _delegateFlag.didSelect = YES;
-    }
+    _delegateFlag.didSelect = [_delegate respondsToSelector:@selector(pageView:didSelectAtIndex:)];
 }
 
 @end
